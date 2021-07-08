@@ -5,7 +5,7 @@
     android:id="@+id/login"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffff"
+    android:background="@drawable/background"
     tools:context=".ui.Login">
 
 
@@ -14,12 +14,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="88dp"
-        android:text="Giriş Yap"
-        android:textColor="@color/koyugri"
+        android:text="Login"
+        android:textColor="@color/acikgri"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
@@ -28,11 +28,11 @@
         android:id="@+id/hosgeldinbilgi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ücretsiz Kayıt Ol veya Giriş Yap"
+        android:text="Free.Useful.OpenSource"
         android:textColor="@color/gri"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.343"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/hosgeldin"
         tools:ignore="MissingConstraints" />
@@ -113,7 +113,7 @@
         android:layout_marginBottom="52dp"
         android:backgroundTint="#00F4F4F4"
         android:text="Register"
-        android:textColor="@color/buttonblue"
+        android:textColor="@color/acikgri"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
