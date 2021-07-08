@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "87524067475",
+    "project_id": "cryptocurrencytracker-9829a",
+    "storage_bucket": "cryptocurrencytracker-9829a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87524067475:android:879ee7fdf55971c403e566",
+        "android_client_info": {
+          "package_name": "com.fcemtopall.cryptocurrencytracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87524067475-cvn3dr95abkoupea8e83ktkbrovnrbv6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPfTkS6HlE3rv1_gNSiohQug9xBe0Vifg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87524067475-cvn3dr95abkoupea8e83ktkbrovnrbv6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    tools:context=".ui.Login">
+
+
+    <TextView
+        android:id="@+id/hosgeldin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:text="Giriş Yap"
+        android:textColor="@color/koyugri"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/hosgeldinbilgi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ücretsiz Kayıt Ol veya Giriş Yap"
+        android:textColor="@color/gri"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.343"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hosgeldin"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+
+        android:id="@+id/login_mail"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="70dp"
+        android:background="@drawable/button_round_corner"
+        android:drawableLeft="@drawable/ic_person"
+        android:ems="10"
+        android:hint="E-Mail"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/login_password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hosgeldinbilgi" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_round_corner"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_mail" />
+
+
+    <TextView
+        android:id="@+id/kayitbilgi"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginTop="196dp"
+        android:gravity="center"
+        android:text="Haven't Acoount? Register!"
+        android:textColor="@color/gri"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_button"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/acikgri"
+        android:text="Giris"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/buttonblue"
+        app:iconTint="@color/acikgri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_password"
+        app:layout_constraintVertical_bias="0.851" />
+
+
+    <Button
+        android:id="@+id/logInRegisterText"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="52dp"
+        android:backgroundTint="#00F4F4F4"
+        android:text="Register"
+        android:textColor="@color/buttonblue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kayitbilgi" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
